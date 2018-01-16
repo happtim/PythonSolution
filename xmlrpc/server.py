@@ -6,9 +6,10 @@ def load():
     a = [1 ,2, 24]  
     return a  
   
-def findai(i):  
-    global a  
-    print a[i]  
+def findai(i,f):  
+    global a
+    print a[i]
+    print f
     return a[i]  
   
 server = SimpleXMLRPCServer(("localhost", 8000))  
